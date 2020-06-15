@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './RoomSection.css'
 
 export default class RoomSection extends Component {
   render() {
