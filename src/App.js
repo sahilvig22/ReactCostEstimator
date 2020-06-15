@@ -15,7 +15,6 @@ function App() {
         <Route path='/room-section' component={RoomSection} />
       </Switch>
     </div>
-
     </Router>
   );
 }

@@ -4,7 +4,7 @@ export default class RoomSection extends Component {
   render() {
     return (
       <div>
-        <p>roomSection</p>
+        <p className=" text-5xl">roomSection</p>
       </div>
     )
   }
