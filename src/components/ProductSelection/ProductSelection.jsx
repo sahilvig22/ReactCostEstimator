@@ -8,7 +8,7 @@ export default class ProductSelection extends Component {
     bedRoom: 1,
     hallRoom: 1,
     kitchen: 1,
-    bathRoom: 1,
+    bathroom: 1,
     area: 400,
     selectedRoom: 'Select room to estimate'
   }
@@ -16,6 +16,7 @@ export default class ProductSelection extends Component {
     this.setState({
       bedRoom: parseInt(this.props.match.params.floor),
       area: parseInt(this.props.match.params.area),
+      bathroom: parseInt(this.props.match.params.bathroom),
     });
   }
   selectRoom(data) {
@@ -30,6 +31,17 @@ export default class ProductSelection extends Component {
         <RoomItem
           name="Bed Room"
           key={camelcase(`Bed Room ${i}`)}
+          selectRoom={this.selectRoom.bind(this)}
+          number={i}
+        />
+      );
+    }
+    var bathroomList = []
+    for (let i = 1; i <= this.state.bathroom; i++) {
+      bathroomList.push(
+        <RoomItem
+          name="Bathroom"
+          key={camelcase(`Bathroom ${i}`)}
           selectRoom={this.selectRoom.bind(this)}
           number={i}
         />
@@ -52,11 +64,7 @@ export default class ProductSelection extends Component {
                 selectRoom={this.selectRoom.bind(this)}
                 number={1}
               />
-              <RoomItem
-                name="Bathroom"
-                selectRoom={this.selectRoom.bind(this)}
-                number={1}
-              />
+              {bathroomList}
             </div>
           </div>
           <div className="w-6/12 bg-orange-100 rounded mx-2 text-center">

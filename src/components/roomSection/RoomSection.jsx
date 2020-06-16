@@ -5,14 +5,15 @@ export default class RoomSection extends Component {
 
   state={
     floor:'1',
+    bathroom:1,
     floorArea:'400',
     isEnable:true
   }
   onSubmit(event){
     console.log(this.state);
       this.props.history.push(
-        `/product-selection/${this.state.floor}/${this.state.floorArea}`
-      )
+        `/product-selection/${this.state.floor}/${this.state.bathroom}/${this.state.floorArea}`
+      );
     event.preventDefault();
   }
   onChangeHandel = (event)=>{
@@ -105,7 +106,19 @@ export default class RoomSection extends Component {
                   <div className="inside"></div>
                 </div>
               </li>
-              <div className="mt-8">
+              <div className="mt-4">
+                <p className=" text-left">Select Bathroom</p>
+                <div className="flex">
+                  <input
+                    type="text"
+                    value={this.state.bathroom}
+                    name="bathroom"
+                    onChange={this.onChangeHandel}
+                    className="bg-orange-200 font-semibold px-2 py-2 rounded my-2"
+                  />
+                </div>
+              </div>
+              <div className="mt-4">
                 <p className=" text-left">Built-up area</p>
                 <div className="flex">
                   <input
