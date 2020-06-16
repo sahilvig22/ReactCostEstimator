@@ -4,36 +4,36 @@ import RoomItem from './RoomItem/RoomItem'
 import camelcase from "camelcase";
 
 export default class ProductSelection extends Component {
-  state={
-    bedRoom:1,
-    hallRoom:1,
-    kitchen:1,
-    bathRoom:1,
-    area:400,
-    selectedRoom:'Select room to estimate'
+  state = {
+    bedRoom: 1,
+    hallRoom: 1,
+    kitchen: 1,
+    bathRoom: 1,
+    area: 400,
+    selectedRoom: 'Select room to estimate'
   }
-  componentDidMount(){
+  componentDidMount() {
     this.setState({
       bedRoom: parseInt(this.props.match.params.floor),
       area: parseInt(this.props.match.params.area),
-    }); 
+    });
   }
-  selectRoom(data){
+  selectRoom(data) {
     this.setState({
-      selectedRoom:data
+      selectedRoom: data
     })
   }
   render() {
     var bedRoomList = []
-    for(let i=1;i<=this.state.bedRoom ;i++){
-    bedRoomList.push(
-      <RoomItem
-        name="Bed Room"
-        key={camelcase(`Bed Room ${i}`)}
-        selectRoom={this.selectRoom.bind(this)}
-        number={i}
-      />
-    );
+    for (let i = 1; i <= this.state.bedRoom; i++) {
+      bedRoomList.push(
+        <RoomItem
+          name="Bed Room"
+          key={camelcase(`Bed Room ${i}`)}
+          selectRoom={this.selectRoom.bind(this)}
+          number={i}
+        />
+      );
     }
     return (
       <div className="mt-4">
