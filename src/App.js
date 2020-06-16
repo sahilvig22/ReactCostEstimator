@@ -5,8 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import RoomSection from './components/roomSection/RoomSection.jsx'
-import Home from './components/Home/Home';
+import Home from './components/Home/Home.jsx';
 import ProductSelection from './components/ProductSelection/ProductSelection';
+
 
 function App() {
   return (
