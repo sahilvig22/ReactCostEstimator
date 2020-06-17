@@ -24,6 +24,62 @@
   #who .who-img {
     display: none;
   }
+  #projects .articles-container {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  
+  #projects .articles-container > *:first-child,
+  #projects .articles-container > *:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    /* grid-column: 1 / span 2; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  /* FOOTER */
+  .footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer .footer-text {
+    grid-column: 1;
+  }
 
 
+}
+
+@media (max-width: 600px) {
+  #projects .articles-container {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  #projects .articles-container > *:first-child,
+  #projects .articles-container > *:last-child {
+    /* grid-template-columns: 1fr; */
+
+    grid-column: 1;
+  }
+
+  #projects .articles-container .red-article {
+    grid-column: 1;
+  }
+
+  /* FOOTER */
+  .footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer .footer-text {
+    grid-column: 1;
+  }
+
+  /* ABOUT */
+  .page-container {
+    grid-template-columns: 1fr;
+  }
 }
