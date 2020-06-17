@@ -4,7 +4,10 @@ import './HomeMobile.css'
 import './smoothScrolling.js'
 import { Button, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap'
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import logo from '../../assets/bg.jpeg'
+import bg from '../../assets/bg.jpeg'
+import bedroom from '../../assets/Bedroom.jpeg'
+import bathroom from '../../assets/Bathroom.jpeg'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // <link
@@ -41,7 +44,7 @@ export default function Home() {
         </Navbar.Collapse>
       </Navbar>
 
-      {/* <img src={logo} alt="" className="rounded" /> */}
+      {/* <img src={bg} alt="" className="rounded" /> */}
 
       {/* Header Showcase */}
       <header id="showcase">
@@ -154,7 +157,7 @@ export default function Home() {
           <div class="articles-container">
 
             <article class="card">
-              <img src={logo} alt="NOO" />
+              <img src={bg} alt="NOO" />
               <div>
                 <div class="category category-ent">Living Room</div>
                 <h3>
@@ -168,7 +171,7 @@ export default function Home() {
 
 
             <article class="card">
-              <img src={logo} alt="NOO" />
+              <img src={bg} alt="NOO" />
               <div>
                 <div class="category category-sports mt-2">Entire House</div>
                 <h3>
@@ -183,7 +186,7 @@ export default function Home() {
 
 
             <article class="card">
-              <img src={logo} alt="NOO" />
+              <img src={bathroom} alt="NOO" />
               <div>
                 <div class="category category-ent mt-2 ">Bathroom & Kitchen</div>
                 <h3>
@@ -198,7 +201,7 @@ export default function Home() {
 
 
             <article class="card">
-              <img src={logo} alt="NOO" />
+              <img src={bedroom} alt="NOO" />
               <div>
                 <div class="category category-sports mt-2 ">Bedroom</div>
                 <h3>
@@ -212,7 +215,7 @@ export default function Home() {
 
 
             <article class="card">
-              <img src={logo} alt="NOO" />
+              <img src={bg} alt="NOO" />
               <div>
                 <div class="category category-ent mt-2 ">Full House</div>
                 <h3>
@@ -225,7 +228,7 @@ export default function Home() {
             </article>
 
             <article class="card">
-              <img src={logo} alt="NOO" />
+              <img src={bg} alt="NOO" />
               <div>
                 <div class="category category-sports mt-2 ">Full House</div>
                 <h3>
@@ -246,14 +249,14 @@ export default function Home() {
                   Systematic Worker
         </h3>
               </div>
-              <img src={logo} alt="" />
+              <img src={bg} alt="" />
             </article>
 
           </div>
         </div>
       </section>
 
-      <footer class="footer py-2">
+      <footer class="footer py-2 mt-2 ">
         <div class="footer-container container">
           <div class="news-grid">
             {/* <img src="img/logo_light.png" alt="logo" class="logo" />  */}
