@@ -1,5 +1,7 @@
 import React from 'react'
-import { Button, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown, } from 'react-bootstrap'
+// import { Button, Form, FormControl } from 'react-bootstrap'
+
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -14,7 +16,7 @@ export default function Navbarr() {
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#what">About Us</Nav.Link>
-            <Nav.Link href="/room-section">Get Estimate</Nav.Link>
+            <Nav.Link href="/calculate">Get Estimate</Nav.Link>
 
             <NavDropdown disabled title="Dropdown" id="basic-nav-dropdown" >
               <NavDropdown.Item href="/room-section">Action</NavDropdown.Item>

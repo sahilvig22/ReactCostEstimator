@@ -26,8 +26,8 @@ export default function Foterr() {
           <div class="footer-site-links" id="contact">
             <h3>SITE LINKS</h3>
             <ul className="text-white">
-              <li> <a href="https://github.com/sahilvig22" target="_blank">Github <i class="fab fa-github"></i></a> </li>
-              <li> <a href="https://in.linkedin.com/in/sahilvig" target="_blank">Linkedin <i
+              <li> <a href="https://github.com/sahilvig22" target="_blank" rel="noopener noreferrer">Github <i class="fab fa-github"></i></a> </li>
+              <li> <a href="https://in.linkedin.com/in/sahilvig" target="_blank" rel="noopener noreferrer">Linkedin <i
                 class="fab fa-linkedin-in"></i></a> </li>
               <li> <a href="mailto:thesahilvig@gmail.com?Subject=Hello%20Sahil" target="_top">Email <i
                 class="fas fa-envelope"></i> </a> </li>
@@ -46,7 +46,7 @@ export default function Foterr() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
               minima!
         </p>
-            <a href="#" class="btn btn-secondary">Join Now</a>
+            <a href="/" class="btn btn-secondary">Join Now</a>
           </div>
 
           <div class="footer-text">

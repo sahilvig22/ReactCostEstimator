@@ -15,6 +15,6 @@ $("Nav.Link a, .btn").on("click", function (event) {
     );
   }
 });
-console.log("fjdh");
+// console.log("fjdh");
 
 // DOESNT WORK
