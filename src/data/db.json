@@ -52,8 +52,425 @@
   ],
   "delhi": [
     {
-      "id": "livingroom",
-      "type": "basic",
+      "id": "livingRoomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomLavish",
       "flooring": {
         "virtifiedTiles": 100,
         "woodenFlooring": 150,
@@ -91,7 +508,1378 @@
       }
     }
   ],
-  "mumbai": [],
-  "pune": [],
-  "punjab": []
+  "mumbai": [
+    {
+      "id": "livingRoomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    }
+  ],
+  "pune": [
+    {
+      "id": "livingRoomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    }
+  ],
+  "punjab": [
+    {
+      "id": "livingRoomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "livingRoomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "kitchenLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBedroomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomBasic",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomStandard",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    },
+    {
+      "id": "masterBathroomLavish",
+      "flooring": {
+        "virtifiedTiles": 100,
+        "woodenFlooring": 150,
+        "italianMarble": 175
+      },
+      "walls": {
+        "painting": 100,
+        "paintingAndFalseCeiling": 150,
+        "italianMarble": 175
+      },
+      "electricals": {
+        "relocationOfExistingSwitches": 100,
+        "newWiringAndSwitches": 150,
+        "newWireAndSwitchesWithAutomation": 175
+      },
+      "windows": {
+        "standardPowerCoatedMSSection": 100,
+        "anodisedAluminumSectionWithGraniteFraming": 150,
+        "soundProofWindowSectionWithGraniteFraming": 175
+      },
+      "doors": {
+        "doorFramePolishingAndDoorEdgeCleaning": 100,
+        "doorFramePolishAndNewDoorWithNewHandleHardware": 150,
+        "newDoorFrameAndDoorWithVeneerMattPUFinishWithNewHandleHardware": 175
+      },
+      "furniture": {
+        "tvUnit": 100,
+        "entConsole": 110,
+        "barCounter": 120,
+        "abcrockeryUnit": 130,
+        "shoeRack": 140,
+        "outdoorPaneling": 150,
+        "safetyDoor": 160,
+        "mandirUnit": 170
+      }
+    }
+  ]
 }

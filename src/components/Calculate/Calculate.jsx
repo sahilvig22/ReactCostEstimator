@@ -13,13 +13,13 @@ export default class Calculate extends Component {
     }
   }
   componentDidMount() {
-
+    // axios.get is case sensitive
     // axios.get(`http://www.omdbapi.com/?s=star&apikey=thewdb`)
-    axios.get("http://localhost:8000/delhi/livingroom")
+    axios.get("http://localhost:8000/delhi")
       .then(response => {
-        console.log(response.data)
-        // this.setState({ reply: response.data.Search, isRecieved: true })
-        // console.log(this.state.reply)
+        // console.log(response.data)
+        this.setState({ reply: response.data, isRecieved: true })
+        console.log(this.state.reply)
 
         // console.log('tyr')
       })
@@ -33,10 +33,27 @@ export default class Calculate extends Component {
 
       })
   }
+
+  createTable() {
+    const ids = this.state.reply;
+    console.log(ids)
+
+  }
+
   render() {
     return (
       <div>
-        <h3>hey</h3>
+        {this.state.isRecieved ?
+          (
+            <div className="alert alert-success" role="alert"> Data Recieved </div>
+          )
+          :
+          (this.state.isRecieved)}
+
+        <table>
+          {this.createTable()}
+        </table>
+
       </div>
     )
   }
