@@ -34,11 +34,7 @@ export default class Calculate extends Component {
       })
   }
 
-  createTable() {
-    const ids = this.state.reply;
-    console.log(ids)
 
-  }
 
   render() {
     return (
@@ -50,9 +46,7 @@ export default class Calculate extends Component {
           :
           (this.state.isRecieved)}
 
-        <table>
-          {this.createTable()}
-        </table>
+
 
       </div>
     )
